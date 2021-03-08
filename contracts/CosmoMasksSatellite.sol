@@ -10,7 +10,7 @@ interface IERC20BurnTransfer {
 }
 
 interface ICosmoTokenMint {
-    function mintToFond(uint256 amount) external returns (bool);
+    function mintToFund(uint256 amount) external returns (bool);
 }
 
 
@@ -61,7 +61,7 @@ contract CosmoMasksSatellite is Ownable, CosmoMasksERC721 {
         for (uint256 i = 0; i < numberOfMasks; i++) {
             uint256 mintIndex = totalSupply();
             _safeMint(to, mintIndex);
-            ICosmoTokenMint(_cosmoToken).mintToFond(1e24);
+            ICosmoTokenMint(_cosmoToken).mintToFund(1e24);
         }
     }
 

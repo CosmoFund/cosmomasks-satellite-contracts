@@ -17,9 +17,9 @@ npm install @cosmofund/cosmomasks-satellite
 
 ### Usage
 ```js
-const CosmoMasksSatellite = require('@cosmofund/cosmomasks-satellite/abi/CosmoMasksSatellite.json');
+const CosmoMasksSatellite = require('@cosmofund/cosmomasks-satellite/build/CosmoMasksSatellite.json');
 // or
-import CosmoMasksSatellite from '@cosmofund/cosmomasks-satellite/abi/CosmoMasksSatellite.json';
+import CosmoMasksSatellite from '@cosmofund/cosmomasks-satellite/build/CosmoMasksSatellite.json';
 ```
 
 
