@@ -4,7 +4,7 @@ CosmoMasks WEB Site: [www.TheCosmoMasks.com](https://www.TheCosmoMasks.com/).
 
 
 ## Verified Smart Contracts:
-- [CosmoMasks Limited Pack](https://etherscan.io/token/);
+- [CosmoMasks Limited Pack](https://etherscan.io/token/0x5256187d635300d82f0E66D2f41e5926ba880377);
 
 
 ## Usage CosmoMasks Limited Pack Smart Contracts
