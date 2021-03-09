@@ -1,25 +1,25 @@
-# CosmoMasks Satellite Smart Contracts
+# CosmoMasks Limited Pack Smart Contracts
 CosmoFund WEB Site: [www.CosmoFund.space](https://www.CosmoFund.space/).  
 CosmoMasks WEB Site: [www.TheCosmoMasks.com](https://www.TheCosmoMasks.com/).
 
 
 ## Verified Smart Contracts:
-- [CosmoMasks Satellite](https://etherscan.io/token/);
+- [CosmoMasks Limited Pack](https://etherscan.io/token/);
 
 
-## Usage CosmoMasks Satellite Smart Contracts
+## Usage CosmoMasks Limited Pack Smart Contracts
 ### Install
 ```bash
-yarn add @cosmofund/cosmomasks-satellite
+yarn add @cosmofund/cosmomasks-limited-pack
 # or
-npm install @cosmofund/cosmomasks-satellite
+npm install @cosmofund/cosmomasks-limited-pack
 ```
 
 ### Usage
 ```js
-const CosmoMasksSatellite = require('@cosmofund/cosmomasks-satellite/build/CosmoMasksSatellite.json');
+const CosmoMasksLimitedPack = require('@cosmofund/cosmomasks-limited-pack/build/CosmoMasksLimitedPack.json');
 // or
-import CosmoMasksSatellite from '@cosmofund/cosmomasks-satellite/build/CosmoMasksSatellite.json';
+import CosmoMasksLimitedPack from '@cosmofund/cosmomasks-limited-pack/build/CosmoMasksLimitedPack.json';
 ```
 
 

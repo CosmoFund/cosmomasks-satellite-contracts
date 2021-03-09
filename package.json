@@ -1,7 +1,7 @@
 {
-  "name": "@cosmofund/cosmomasks-satellite",
+  "name": "@cosmofund/cosmomasks-limited-pack",
   "version": "1.0.1",
-  "description": "CosmoMasks Satellite Contracts",
+  "description": "CosmoMasks Limited Pack Contracts",
   "license": "MIT",
   "author": {
     "name": "CosmoFund",
@@ -9,17 +9,17 @@
     "url": "https://www.CosmoFund.space"
   },
   "scripts": {
-    "clean": "rimraf ./abi/",
+    "clean": "rimraf ./build/",
     "precompile": "yarn clean",
     "compile": "truffle compile"
   },
-  "homepage": "https://github.com/CosmoFund/cosmomasks-satellite-contracts#readme",
+  "homepage": "https://github.com/CosmoFund/cosmomasks-limited-pack-contracts#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CosmoFund/cosmomasks-satellite-contracts.git"
+    "url": "https://github.com/CosmoFund/cosmomasks-limited-pack-contracts.git"
   },
   "bugs": {
-    "url": "https://github.com/CosmoFund/cosmomasks-satellite-contracts/issues",
+    "url": "https://github.com/CosmoFund/cosmomasks-limited-pack-contracts/issues",
     "email": "support@CosmoFund.space"
   },
   "files": [
@@ -37,7 +37,7 @@
     "Cosmo",
     "CosmoFund",
     "CosmoMasks",
-    "CosmoMasksSatellite",
+    "CosmoMasks Limited Pack",
     "сontract",
     "ABI"
   ],

@@ -25,22 +25,22 @@ contract ProxyRegistry {
  * @title CosmoMasks contract
  * @dev Extends ERC721 Non-Fungible Token Standard basic implementation
  */
-contract CosmoMasksSatellite is Ownable, CosmoMasksERC721 {
+contract CosmoMasksLimitedPack is Ownable, CosmoMasksERC721 {
     using SafeMath for uint256;
 
     // This is the provenance record of all CosmoMasks artwork in existence
     uint256 public constant MAX_SUPPLY = 610;
     string public constant PROVENANCE = "d2fa4e09c05d4e578b4132118a2fb2a74247e60a1e8a95734ac3274f74923ffe";
-    address private _cosmoToken;// = address(0xf11C2B7d28eFc6E04880D66A295d72B54fc3172d);
+    address private _cosmoToken;
     address proxyRegistryAddress;
     string private _contractURI;
 
 
-    constructor(address _proxyRegistryAddress) public CosmoMasksERC721("CosmoMasks Satellite", "COSMASS") {
+    constructor(address _proxyRegistryAddress) public CosmoMasksERC721("CosmoMasks Limited Pack", "COSMAS-LP") {
         proxyRegistryAddress = _proxyRegistryAddress;
-        _setBaseURI("https://TheCosmoMasks.com/cosmomasks-satellite-metadata/");
+        _setBaseURI("https://TheCosmoMasks.com/cosmomasks-limited-pack-metadata/");
         _setURL("https://TheCosmoMasks.com/");
-        _contractURI = "https://TheCosmoMasks.com/cosmomasks-satellite-contract-metadata.json";
+        _contractURI = "https://TheCosmoMasks.com/cosmomasks-limited-pack-contract-metadata.json";
     }
 
     function getCosmoToken() public view returns (address) {
